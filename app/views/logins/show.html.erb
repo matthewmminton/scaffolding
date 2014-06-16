@@ -10,5 +10,10 @@
   <%= @login.last_name %>
 </p>
 
+<p>
+  <strong>Time:</strong>
+  <%= @login.created_at %>
+</p>
+
 <%= link_to 'Edit', edit_login_path(@login) %> |
 <%= link_to 'Back', logins_path %>
